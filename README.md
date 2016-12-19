@@ -3,7 +3,7 @@ Diverse filer ifbm en godteri dispenser som kan sende email når folk forsyner s
 
 
 Huskeliste...
-* echo “Test text” | mail -s 'Test fra godteridispenser' jan.andreas.salvesen@gmail.com
+* echo “Test text” | mail -s 'Test fra godteridispenser' en.eller.annen@gmail.com
 * vi /etc/ssmtp/ssmtp.conf
 * tail -f /var/log/mail.err
 * vi /etc/ssmtp/ssmtp.conf
