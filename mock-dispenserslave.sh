@@ -1,8 +1,7 @@
 #!/bin/sh
 # Dette er eksempel paa et slavescript som bare looper, kun for testing
-Markorfile=/tmp/markor.file.tmp
 while :;do
-	echo Venter paa $Markorfile som simulerer keypress >>/tmp/dispenser.logg
-	sleep 12.3
+	echo $(date "+%H:%M:%S %d/%m-%Y") Simulerer keypress >>/tmp/dispenser.logg
+	sleep 120.3 # Venter ganske lenge saa ikke loggfilen fyller disken...
 done
 
